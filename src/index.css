@@ -8,33 +8,49 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    --background: 248 100% 98%;
+    --foreground: 226 84% 8%;
 
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: 226 84% 8%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 226 84% 8%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 239 100% 67%;
+    --primary-foreground: 0 0% 100%;
+    --primary-glow: 239 100% 80%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 248 100% 96%;
+    --secondary-foreground: 226 84% 8%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 248 100% 94%;
+    --muted-foreground: 226 20% 50%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 142 86% 70%;
+    --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 248 50% 88%;
+    --input: 248 50% 88%;
+    --ring: 239 100% 67%;
+
+    --success: 142 86% 70%;
+    --success-foreground: 0 0% 100%;
+    
+    --code-bg: 226 84% 8%;
+    --code-foreground: 0 0% 100%;
+    
+    --gradient-primary: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--primary-glow)));
+    --gradient-accent: linear-gradient(135deg, hsl(var(--accent)), hsl(var(--success)));
+    --gradient-bg: linear-gradient(180deg, hsl(var(--background)), hsl(var(--muted)));
+    
+    --shadow-elegant: 0 8px 32px hsl(var(--primary) / 0.1);
+    --shadow-code: 0 4px 16px hsl(var(--code-bg) / 0.2);
+    
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 
     --radius: 0.5rem;
 
